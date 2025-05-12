@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.firstIntro {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.299), black), url(./mers.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.firstIntro li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.firstIntro li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.firstIntro .content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.firstIntro .content h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.firstIntro .content p {
+    color: grey;
+    font-size: 20px;
+}
+
+.buttons button {
+    width: 200px;
+    padding: 15px 0;
+    margin: 20px 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+.buttons button:hover {
+    border: 1px solid red;
+    background-color: rgba(128, 0, 128, 0.353);
+    color: white;
+    border-top-right-radius: 0px;
+    transition: all 0.5s;
+    transform: scale(1.02);
+}
